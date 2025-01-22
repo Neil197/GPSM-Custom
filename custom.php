@@ -18,7 +18,7 @@ function preload_lcp_images_by_id() {
     // Define page IDs and their respective LCP images
     $preload_images = array(
         12   => '/wp-content/uploads/2023/04/Divi-accountant-banner-1920x864-1.webp',      // Home page
-        561 => '/wp-content/uploads/2023/04/CC0-about-us-bannner-1800x450-1.webp'        // About Us
+        561 => '/wp-content/uploads/2023/04/CC0-about-us-bannner-1800x450-1.webp',        // About Us
         1292 => '/wp-content/uploads/2023/04/CC0-terms-of-service-banner-1040x345-1.webp'    // Terms of Service
     );
 
