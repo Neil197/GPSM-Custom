@@ -24,7 +24,7 @@ function preload_lcp_images_by_id() {
 
     if (isset($preload_images[$current_post_id])) {
         $image_url = esc_url($preload_images[$current_post_id]);
-        echo \"<link rel='preload' as='image' href='{$image_url}' />\\n\";
+        echo "<link rel='preload' as='image' href='{$image_url}' />\\n";
     }
 }
 add_action('wp_head', 'preload_lcp_images_by_id', 1);
